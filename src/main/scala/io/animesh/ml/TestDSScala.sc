@@ -11,6 +11,9 @@ val books = Seq(
   Books("Mobile Development", 495)
 )
 
-books.max
 books.maxBy(book => book.pages)
 
+
+numbers.filter( n=> n%2 ==0 ).foreach(
+  x => print(x)
+)
